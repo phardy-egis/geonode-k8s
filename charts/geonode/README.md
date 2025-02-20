@@ -122,6 +122,8 @@ Helm Chart for Geonode. Supported versions: Geonode: 4.4.0, Geoserver: 2.24.4-v1
 | geonode.secret.superUser.email | string | `"support@example.com"` | admin user password |
 | geonode.secret.superUser.password | string | `"geonode"` | admin panel password |
 | geonode.secret.superUser.username | string | `"admin"` | admin username |
+| geonode.secret.bing.apiKey | string | `""` | API Key for Bing Maps.  |
+| geonode.secret.django.secretKey | string | `"!^gs*4^y81)#qt1n8!#3hzd221boe3_2x+s%t9buh#qwm)q)cb"` | Django SECRET_KEY setting. It is recommended to change it prior production use. |
 | geonode.sentry.build_number | int | `0` | sentry build number |
 | geonode.sentry.dsn | string | `""` | sentry dsn url |
 | geonode.sentry.enabled | bool | `false` | enable sentry integration for geonode |
